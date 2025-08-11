@@ -48,7 +48,7 @@
 &kp TAB        &kp J        &kp G           &kp M         &kp P       &kp V         &kp COMMA      &kp DOT     &kp SLASH     &kp SQT          &kp SEMICOLON  &kp BSPC
 &kp CAPS       &mt LCTRL C  &mt LEFT_ALT S  &mt LSHIFT N  &mt LGUI T  &mt HOME K    &mt END EQUAL  &mt RGUI A  &mt RSHIFT E  &mt RIGHT_ALT I  &mt RCTRL H    &kp GRAVE
 &mt GLOBE ESC  &kp X        &kp F           &kp L         &kp D       &kp W         &kp MINUS      &kp U       &kp O         &kp Y            &kp B          &kp ESC
-                                            &sl 1         &kp R       &kp ENTER     &kp SPACE      &sl 2       &to 3
+                                            &lt 1 Q       &kp R       &kp ENTER     &kp SPACE      &lt 2 Z     &to 3
             >;
         };
 
