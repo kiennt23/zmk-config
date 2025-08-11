@@ -48,7 +48,7 @@
 &kp TAB        &kp J        &kp G           &kp M         &kp P       &kp V         &kp COMMA      &kp DOT     &kp SLASH     &kp SQT          &kp SEMICOLON  &kp BSPC
 &kp CAPS       &mt LCTRL C  &mt LEFT_ALT S  &mt LSHIFT N  &mt LGUI T  &mt HOME K    &mt END EQUAL  &mt RGUI A  &mt RSHIFT E  &mt RIGHT_ALT I  &mt RCTRL H    &kp GRAVE
 &mt GLOBE ESC  &kp X        &kp F           &kp L         &kp D       &kp W         &kp MINUS      &kp U       &kp O         &kp Y            &kp B          &kp ESC
-                                            &to 1         &kp R       &kp ENTER     &kp SPACE      &to 2       &to 0
+                                            &sl 1         &kp R       &kp ENTER     &kp SPACE      &sl 2       &to 3
             >;
         };
 
@@ -81,10 +81,10 @@
 
         colemak_dh {
             bindings = <
-&kp TAB        &kp Q        &kp W           &kp F            &kp P           &kp B         &kp J      &kp L            &kp U          &kp Y       &kp SEMICOLON  &kp BSPC
-&kp CAPS       &mt LCTRL A  &mt LEFT_ALT R  &mt LSHFT S      &mt LEFT_GUI T  &mt HOME G    &mt END M  &mt RIGHT_GUI N  &mt RSHFT E    &mt RALT I  &mt RCTRL O    &kp SQT
-&mt GLOBE ESC  &kp Z        &kp X           &kp C            &kp D           &kp V         &kp K      &kp H            &kp COMMA      &kp DOT     &kp FSLH       &kp ESC
-                                            &lt 2 PAGE_DOWN  &sl 1           &kp ENTER     &kp SPACE  &sl 2            &lt 1 PAGE_UP
+&kp TAB        &kp Q        &kp W           &kp F            &kp P           &kp B         &kp J      &kp L            &kp U        &kp Y       &kp SEMICOLON  &kp BSPC
+&kp CAPS       &mt LCTRL A  &mt LEFT_ALT R  &mt LSHFT S      &mt LEFT_GUI T  &mt HOME G    &mt END M  &mt RIGHT_GUI N  &mt RSHFT E  &mt RALT I  &mt RCTRL O    &kp SQT
+&mt GLOBE ESC  &kp Z        &kp X           &kp C            &kp D           &kp V         &kp K      &kp H            &kp COMMA    &kp DOT     &kp FSLH       &kp ESC
+                                            &lt 2 PAGE_DOWN  &to 1           &kp ENTER     &kp SPACE  &to 2            &to 0
             >;
         };
     };
