@@ -43,27 +43,15 @@
         compatible = "zmk,keymap";
 
         default_layer {
-            // -----------------------------------------------------------------------------------------
-            // |  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BKSP |
-            // | CTRL |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |  '   |
-            // | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | ESC  |
-            //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
-
             bindings = <
-&kp TAB        &kp Q        &kp W           &kp F            &kp P           &kp B         &kp J      &kp L            &kp U          &kp Y       &kp SEMICOLON  &kp BSPC
-&kp CAPS       &mt LCTRL A  &mt LEFT_ALT R  &mt LSHFT S      &mt LEFT_GUI T  &mt HOME G    &mt END M  &mt RIGHT_GUI N  &mt RSHFT E    &mt RALT I  &mt RCTRL O    &kp SQT
-&mt GLOBE ESC  &kp Z        &kp X           &kp C            &kp D           &kp V         &kp K      &kp H            &kp COMMA      &kp DOT     &kp FSLH       &kp ESC
-                                            &lt 2 PAGE_DOWN  &sl 1           &kp ENTER     &kp SPACE  &sl 2            &lt 1 PAGE_UP
+&kp TAB        &kp J        &kp G           &kp M         &kp P       &kp V         &kp COMMA      &kp DOT     &kp SLASH     &kp SQT          &kp SEMICOLON  &kp BSPC
+&kp CAPS       &mt LCTRL C  &mt LEFT_ALT S  &mt LSHIFT N  &mt LGUI T  &mt HOME K    &mt END EQUAL  &mt RGUI A  &mt RSHIFT E  &mt RIGHT_ALT I  &mt RCTRL H    &kp GRAVE
+&mt GLOBE ESC  &kp X        &kp F           &kp L         &kp D       &kp W         &kp MINUS      &kp U       &kp O         &kp Y            &kp B          &kp ESC
+                                            &to 1         &kp R       &kp ENTER     &kp SPACE      &to 2       &to 0
             >;
         };
 
         numbers {
-            // -----------------------------------------------------------------------------------------
-            // |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
-            // | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   | LFT | DWN |  UP | RGT |     |      |
-            // | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
-            //                    | GUI |     | SPC |   | ENT |     | ALT |
-
             bindings = <
 &kp TAB  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5             &kp N6     &kp N7    &kp N8  &kp N9     &kp N0  &kp BSPC
 &trans   &trans  &trans  &trans  &trans  &kp PRINTSCREEN    &kp LEFT   &kp DOWN  &kp UP  &kp RIGHT  &trans  &trans
@@ -73,12 +61,6 @@
         };
 
         symbols {
-            // -----------------------------------------------------------------------------------------
-            // |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
-            // | CTRL |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
-            // | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
-            //                    | GUI |     | SPC |   | ENT |     | ALT |
-
             bindings = <
 &kp TAB  &kp EXCL        &kp AT           &kp HASH         &kp DLLR        &kp PRCNT    &kp CARET  &kp AMPS        &kp ASTRK       &kp LPAR       &kp RPAR        &kp BSPC
 &trans   &mt LEFT LCTRL  &mt LEFT_ALT UP  &mt LSHIFT DOWN  &mt LGUI RIGHT  &trans       &kp MINUS  &mt RGUI EQUAL  &mt RSHFT LBKT  &mt RALT RBKT  &mt RCTRL BSLH  &kp GRAVE
@@ -96,12 +78,12 @@
             >;
         };
 
-        hands_down {
+        colemak_dh {
             bindings = <
-&kp TAB        &kp J        &kp G           &kp M         &kp P       &kp V         &kp COMMA      &kp DOT     &kp SLASH     &kp SQT          &kp SEMICOLON  &kp BSPC
-&kp CAPS       &mt LCTRL C  &mt LEFT_ALT S  &mt LSHIFT N  &mt LGUI T  &mt HOME K    &mt END EQUAL  &mt RGUI A  &mt RSHIFT E  &mt RIGHT_ALT I  &mt RCTRL H    &kp GRAVE
-&mt GLOBE ESC  &kp X        &kp F           &kp L         &kp D       &kp W         &kp MINUS      &kp U       &kp O         &kp Y            &kp B          &kp ESC
-                                            &to 1         &kp R       &kp ENTER     &kp SPACE      &to 2       &to 0
+&kp TAB        &kp Q        &kp W           &kp F            &kp P           &kp B         &kp J      &kp L            &kp U          &kp Y       &kp SEMICOLON  &kp BSPC
+&kp CAPS       &mt LCTRL A  &mt LEFT_ALT R  &mt LSHFT S      &mt LEFT_GUI T  &mt HOME G    &mt END M  &mt RIGHT_GUI N  &mt RSHFT E    &mt RALT I  &mt RCTRL O    &kp SQT
+&mt GLOBE ESC  &kp Z        &kp X           &kp C            &kp D           &kp V         &kp K      &kp H            &kp COMMA      &kp DOT     &kp FSLH       &kp ESC
+                                            &lt 2 PAGE_DOWN  &sl 1           &kp ENTER     &kp SPACE  &sl 2            &lt 1 PAGE_UP
             >;
         };
     };
