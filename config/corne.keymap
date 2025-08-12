@@ -19,7 +19,7 @@
     combos {
         compatible = "zmk,combos";
 
-        to_handsdown {
+        to_colemak_dh {
             bindings = <&to 4>;
             key-positions = <29 30>;
         };
@@ -66,7 +66,7 @@
 &kp TAB  &kp EXCL        &kp AT           &kp HASH         &kp DLLR        &kp PRCNT    &kp CARET  &kp AMPS        &kp ASTRK       &kp LPAR       &kp RPAR        &kp BSPC
 &trans   &mt LEFT LCTRL  &mt LEFT_ALT UP  &mt LSHIFT DOWN  &mt LGUI RIGHT  &trans       &kp MINUS  &mt RGUI EQUAL  &mt RSHFT LBKT  &mt RALT RBKT  &mt RCTRL BSLH  &kp GRAVE
 &kp ESC  &trans          &trans           &trans           &trans          &trans       &kp UNDER  &kp PLUS        &kp LBRC        &kp RBRC       &kp PIPE        &kp TILDE
-                                          &trans           &to 0           &kp ENTER    &kp SPACE  &sl 3           &trans
+                                          &trans           &to 0           &kp ENTER    &kp SPACE  &to 0           &trans
             >;
         };
 
