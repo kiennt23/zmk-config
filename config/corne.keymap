@@ -20,11 +20,6 @@
     combos {
         compatible = "zmk,combos";
 
-        to_colemak_dh {
-            bindings = <&to 0>;
-            key-positions = <29 30>;
-        };
-
         to_default {
             bindings = <&to 0>;
             key-positions = <17 18>;
