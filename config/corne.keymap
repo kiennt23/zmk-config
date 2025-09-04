@@ -74,7 +74,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        default_layer {
+        default {
             bindings = <
 &kp TAB        &kp J          &kp G             &kp M           &kp P         &kp V         &kp COMMA      &kp DOT       &kp SLASH       &kp SQT            &kp SEMICOLON  &kp BSPC
 &kp CAPS       &lpht LCTRL C  &lpht LEFT_ALT S  &lpht LSHIFT N  &lpht LGUI T  &mt HOME K    &mt END EQUAL  &rpht RGUI A  &rpht RSHIFT E  &rpht RIGHT_ALT I  &rpht RCTRL H  &kp GRAVE
