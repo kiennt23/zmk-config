@@ -39,7 +39,6 @@
     behaviors {
         lpht: lpht {
             compatible = "zmk,behavior-hold-tap";
-            label = "LPHT";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
@@ -53,7 +52,6 @@
 
         rpht: rpht {
             compatible = "zmk,behavior-hold-tap";
-            label = "RPHT";
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
@@ -77,7 +75,7 @@
                                                 &kp Q           &lt 1 R       &kp ENTER     &kp SPACE      &lt 2 Z       &to 3
             >;
 
-            label = "default";
+            display-name = "default";
         };
 
         numbers {
@@ -88,7 +86,7 @@
                          &trans  &trans  &kp ENTER          &kp SPACE  &to 0     &trans
             >;
 
-            label = "numbers";
+            display-name = "numbers";
         };
 
         symbols {
@@ -99,7 +97,7 @@
                                           &trans           &to 0           &kp ENTER    &kp SPACE  &to 0           &trans
             >;
 
-            label = "symbols";
+            display-name = "symbols";
         };
 
         misc {
@@ -110,7 +108,7 @@
                                         &trans        &to 0         &trans          &trans          &to 0           &trans
             >;
 
-            label = "misc";
+            display-name = "misc";
         };
     };
 };
